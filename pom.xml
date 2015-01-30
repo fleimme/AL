@@ -48,7 +48,29 @@
                 <artifactId>maven-jxr-plugin</artifactId>
                 <version>2.3</version>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId>
+                <version>2.2</version>
+            </plugin>
         </plugins>
     </reporting>
+
+    <scm>
+        <connection>scm:git:file://./tpmaven</connection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Cedric</name>
+            <email>le.cedric.dubois@gmail.com</email>
+            <roles>
+                <role>admin</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+
+    </developers>
 </project>
 
